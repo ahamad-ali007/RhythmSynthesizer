@@ -37,7 +37,7 @@ Then navigate to `http://localhost:8000` in your browser.
 
 ## License
 
-MIT License
+Apache License
 
 ## Credits
 
