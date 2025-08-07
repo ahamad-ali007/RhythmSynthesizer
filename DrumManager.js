@@ -112,7 +112,7 @@ var drumPattern = {
         true
     ],
     // Clap layered with snare, but with an extra syncopated hit
-    'clap(2)': [
+    'clap': [
         false,
         false,
         false,
@@ -159,7 +159,7 @@ var fingerToDrumMap = {
                 players.player('kick').volume.value = -6; // Lowered kick volume
                 players.player('snare').volume.value = 0;
                 players.player('hihat').volume.value = -2; // Softer hi-hat
-                players.player('clap(2)').volume.value = 0;
+                players.player('clap').volume.value = 0;
                 console.log("Drum samples loaded successfully.");
                 resolve();
             },
