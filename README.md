@@ -38,7 +38,7 @@ Then navigate to `http://localhost:8000` in your browser.
 
 ## License
 
-MIT License
+Apache License
 
 ## Credits
 
@@ -48,6 +48,3 @@ MIT License
 - Tone.js - https://tonejs.github.io/
 
 
-My name is Alan, and I enjoy building open source software for computer vision, games, and more. This would be much appreciated during late-night coding sessions!
-
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/stereoDrift)
