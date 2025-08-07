@@ -151,7 +151,7 @@ var fingerToDrumMap = {
                 kick: 'assets/kick.wav',
                 snare: 'assets/snare.wav',
                 hihat: 'assets/hihat.wav',
-                clap: 'assets/clap(2).wav'
+                clap: 'assets/clap.wav'
             },
             onload: function() {
                 isLoaded = true;
