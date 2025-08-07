@@ -112,7 +112,7 @@ var drumPattern = {
         true
     ],
     // Clap layered with snare, but with an extra syncopated hit
-    'clap': [
+    'clap(2)': [
         false,
         false,
         false,
@@ -151,7 +151,7 @@ var fingerToDrumMap = {
                 kick: 'assets/kick.wav',
                 snare: 'assets/snare.wav',
                 hihat: 'assets/hihat.wav',
-                clap: 'assets/clap.wav'
+                clap: 'assets/clap(2).wav'
             },
             onload: function() {
                 isLoaded = true;
@@ -159,7 +159,7 @@ var fingerToDrumMap = {
                 players.player('kick').volume.value = -6; // Lowered kick volume
                 players.player('snare').volume.value = 0;
                 players.player('hihat').volume.value = -2; // Softer hi-hat
-                players.player('clap').volume.value = 0;
+                players.player('clap(2)').volume.value = 0;
                 console.log("Drum samples loaded successfully.");
                 resolve();
             },
@@ -188,7 +188,7 @@ var fingerToDrumMap = {
             }
         });
     }, Array.from({
-        length: 16
+        length: 16 
     }, function(_, i) {
         return i;
     }), "16n").start(0);
